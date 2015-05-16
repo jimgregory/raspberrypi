@@ -1,0 +1,5 @@
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+@xscreensaver -no-splash
+@lxterminal -t PedalPC -e /usr/bin/python /home/pi/pedalpc/software/dashboard.py
+@iceweasel http://localhost:8090/dashboard#
