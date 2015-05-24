@@ -8,4 +8,6 @@ This means either the monitor **must** be 'on' at boot, or you have to set the s
 
 - /etc/xdg/lxsession/LXDE-pi/autostart
 
-Add any scripts here that you want to start when your display launches.  In the sample shown, I've added a Python script that monitors my power output on my PedalPC and launches a web browser so I can view it in realtime.
+Add any scripts here that you want to start when your display launches for any user.  In the sample shown, I've added a Python script that monitors my power output on my PedalPC and launches a web browser so I can view it in realtime. 
+
+If you want the script to launch only for a specific user, add the commands to the user's ~/.config/lxsession/LXDE-pi/autostart file
