@@ -53,5 +53,12 @@
         }
         pcm.default.card 1  <-- add this lines
 
-    Save the file and reboot.
+    Save the file.
+ 
+ 5. Restart the sound system:
+ 
+    ~:$ sudo /etc/init.d/alsa-utils restart
+    
+    You should now have USB audio.
+
 
